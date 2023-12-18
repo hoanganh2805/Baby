@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  orderid: 1
+  customername: MyString
+  numberofseat: 1
+  status: false
+
+two:
+  orderid: 1
+  customername: MyString
+  numberofseat: 1
+  status: false

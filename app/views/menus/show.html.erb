@@ -1,0 +1,45 @@
+<div class="max-w-3xl mx-auto px-4">
+  <div class="flex items-center justify-between">
+    <h1 class="flex-1 font-bold text-3xl">Menu</h1>
+
+    <div class="flex-wrap lg:flex items-center lg:space-x-3">
+      <%= link_to menus_path, class: button_class(theme: "transparent") do %>
+      All Menus
+      <% end %>
+      <%= link_to edit_menu_path(@menu), class: button_class(theme:"primary") do %>
+      Edit
+      <% end %>
+    </div>
+  </div>
+
+  <ul class="text-slate-700">
+      <li>
+        <p class="font-semibold">Dishes:</p>
+        <p><%= @menu.dishes %></p>
+      </li>
+      <li>
+        <p class="font-semibold">Price:</p>
+        <p><%= @menu.price %></p>
+      </li>
+      <li>
+        <p class="font-semibold">Ingredients:</p>
+        <p><%= @menu.ingredients %></p>
+      </li>
+      <li>
+        <p class="font-semibold">Supplier:</p>
+        <p><%= @menu.supplier %></p>
+      </li>
+      <li>
+        <p class="font-semibold">Category:</p>
+        <p><%= @menu.category %></p>
+      </li>
+      <li>
+        <p class="font-semibold">Discription:</p>
+        <p><%= @menu.discription %></p>
+      </li>
+      <li>
+        <p class="font-semibold">Status:</p>
+        <p><%= @menu.status %></p>
+      </li>
+  </ul>
+</div>

@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dishes: MyString
+  price: 1
+  ingredients: MyString
+  supplier: one
+  category: one
+  discription: MyText
+  status: false
+
+two:
+  dishes: MyString
+  price: 1
+  ingredients: MyString
+  supplier: two
+  category: two
+  discription: MyText
+  status: false
