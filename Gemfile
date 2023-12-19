@@ -75,7 +75,7 @@ gem "sidekiq", "~> 6.5", ">= 6.5.4"
 gem "stripe"
 gem "sassc-rails"
 
-gem 'pg', '1.3.5'
+gem 'pg', '1.3.5', group: :production
 gem "dotenv-rails"
 gem 'rails_admin'
 
